@@ -161,9 +161,69 @@ main {
     background-color: white;
 }
 
+/* ------------------- Section Check-in / Check-out */
+
+.check-in-out-container {
+    padding: 2em 1em;
+}
+.check-box {
+    min-width: 20%;
+    padding-bottom: 2em;
+}
+.check-box label {
+    color: var(--castanho-claro);
+    font-size: 1.4em;
+    padding-bottom: 1em;
+}
+.check-box input, .check-box select {
+    background-color: var(--castanho-escuro);
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-bottom: 1px solid var(--castanho-medio);
+    padding-bottom: 0.5em;
+    width: 100%;
+    outline: none;
+}
+.check-box select {
+    padding-bottom: 0.7em;
+}
+#check-in-out-availability {
+    font-size: 1em;
+    padding: 0.5em 1.4em;
+}
+
+/* ------------------- Section Best Staff */
+
+.staff-container {
+    padding: 2.5em 0;
+}
+.staff-image-box img {
+    width: 27em;
+    border-radius: 0.4em;
+}
+.staff-right-box h2 {
+    font-weight: 600;
+}
+.staff-right-box h2, p {
+    color: var(--castanho-claro);
+}
+.staff-right-box p {
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+
 
 
 /* Media Queries */
+
+@media (max-width: 1400px) {
+    #check-in-out-availability {
+        font-size: 0.8em;
+        padding: 0.5em 0.7em;
+    }
+}
 
 @media (max-width: 1200px) {
     .nav-box {
