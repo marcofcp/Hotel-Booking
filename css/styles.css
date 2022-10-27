@@ -195,9 +195,6 @@ main {
 
 /* ------------------- Section Best Staff */
 
-.staff-container {
-    padding: 2.5em 0;
-}
 .staff-image-box img {
     width: 27em;
     border-radius: 0.4em;
@@ -211,6 +208,60 @@ main {
 .staff-right-box p {
     font-size: 1.2em;
     line-height: 2em;
+}
+
+/* --------------------- Section Best Foods */
+
+.foods-image-box img {
+    width: 27em;
+    border-radius: 0.4em;   
+}
+
+.foods-left-box h2 {
+    font-weight: 600;
+}
+.foods-left-box h2, p {
+    color: var(--castanho-claro);
+}
+.foods-left-box p {
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+/* ------------------- Section Swimming Pool */
+
+.swimming-image-box img {
+    width: 27em;
+    border-radius: 0.4em;   
+}
+
+.swimming-right-box h2 {
+    font-weight: 600;
+}
+.swimming-right-box h2, p {
+    color: var(--castanho-claro);
+}
+.swimming-right-box p {
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+/* Section Activities */
+
+.activity {
+    width: 26em;
+    padding-bottom: 3em;
+}
+.activity img {
+    height: 4em;
+}
+.activity-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 1.5em;
+}
+.activity-description {
+    line-height: 2.2em;
 }
 
 
@@ -251,6 +302,12 @@ main {
     }
     .nav-box-hidden {
         display: none;
+    }
+    .foods-left {
+        order: 2;
+    }
+    .foods-right {
+        order: 1;
     }
 }
 @media (max-width: 768px) {
