@@ -249,14 +249,22 @@ main {
     .hamburger-box {
         display: block;
     }
+    .nav-box-hidden {
+        display: none;
+    }
 }
 @media (max-width: 768px) {
     .slide-description-box p, a {
         font-size: 1.3em;
     }
 }
-@media (min-width: 992px) {
-    .nav-box-hidden {
-        display: none;
+
+@media (max-width: 500px) {
+    .slide-description-box p {
+        font-size: 1.1em;
+    }
+    .slide-description-box a {
+        font-size: 0.9em;
+        padding: 0.5em 0.6em;
     }
 }
