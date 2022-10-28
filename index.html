@@ -241,62 +241,63 @@
     
     <section class="container reservation-container mb-5">
         <h2 class="text-capitalize text text-center m-0 mb-3">Make A Reservation</h2>
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="reservation-box">
-                    <label for="check-in-input">check in *</label><br>
-                    <input type="date" id="check-in-input" name="check-in-input">
+        <form action="" class="reservations-form" method="post">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="reservation-box">
+                        <label for="check-in-input">check in *</label><br>
+                        <input type="date" id="check-in-input" name="check-in-input">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="reservation-box">
+                        <label for="check-out-input">check out *</label><br>
+                        <input type="date" id="check-out-input" name="check-out-input">
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div class="reservation-box">
-                    <label for="check-out-input">check out *</label><br>
-                    <input type="date" id="check-out-input" name="check-out-input">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="reservation-box">
+                        <label for="reservation-adults">adults *</label><br>
+                        <select name="reservation-adults" id="reservation-adults">
+                            <option value="1">1 adult</option>
+                            <option value="2">2 adults</option>
+                            <option value="3">3 adults</option>
+                            <option value="4">4 adults</option>
+                            <option value="5">5 adults</option>
+                            <option value="6">6 adults</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="reservation-box">
+                        <label for="reservation-childs">childs *</label><br>
+                        <select name="reservation-childs" id="reservation-childs">
+                            <option value="0">0 child</option>
+                            <option value="1">1 child</option>
+                            <option value="2">2 childs</option>
+                            <option value="3">3 childs</option>
+                            <option value="4">4 childs</option>
+                            <option value="5">5 childs</option>
+                            <option value="6">6 childs</option>
+                        </select>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="reservation-box">
-                    <label for="reservation-adults">adults *</label><br>
-                    <select name="reservation-adults" id="reservation-adults">
-                        <option value="1">1 adult</option>
-                        <option value="2">2 adults</option>
-                        <option value="3">3 adults</option>
-                        <option value="4">4 adults</option>
-                        <option value="5">5 adults</option>
-                        <option value="6">6 adults</option>
-                    </select>
-                </div>
+            <div class="reservation-box reservation-select-rooms-box">
+                <label for="rooms-input">rooms *</label><br>
+                <select name="select-rooms" id="select-rooms">
+                    <option value="1">1 room</option>
+                    <option value="2">2 rooms</option>
+                    <option value="3">3 rooms</option>
+                    <option value="4">4 rooms</option>
+                    <option value="5">5 rooms</option>
+                    <option value="6">6 rooms</option>
+                </select>
             </div>
-            <div class="col-sm-6">
-                <div class="reservation-box">
-                    <label for="reservation-childs">childs *</label><br>
-                    <select name="reservation-childs" id="reservation-childs">
-                        <option value="0">0 child</option>
-                        <option value="1">1 child</option>
-                        <option value="2">2 childs</option>
-                        <option value="3">3 childs</option>
-                        <option value="4">4 childs</option>
-                        <option value="5">5 childs</option>
-                        <option value="6">6 childs</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-
-        <div class="reservation-box reservation-select-rooms-box">
-            <label for="rooms-input">rooms *</label><br>
-            <select name="select-rooms" id="select-rooms">
-                <option value="1">1 room</option>
-                <option value="2">2 rooms</option>
-                <option value="3">3 rooms</option>
-                <option value="4">4 rooms</option>
-                <option value="5">5 rooms</option>
-                <option value="6">6 rooms</option>
-            </select>
-        </div>
+            <div class="reservation-box text-center" id="reservation-availability"><a href="#" class="button-availability text-capitalize">Check Availability</a></div>
+        </form>
 
     </section>
 

@@ -172,13 +172,13 @@ main {
 }
 .check-box label {
     color: var(--castanho-claro);
-    font-size: 1.4em;
+    font-size: 1.2em;
     padding-bottom: 1em;
 }
 .check-box input, .check-box select {
     background-color: var(--castanho-escuro);
     color: white;
-    font-size: 1.2em;
+    font-size: 1em;
     border: none;
     border-bottom: 1px solid var(--castanho-medio);
     padding-bottom: 0.5em;
@@ -284,13 +284,13 @@ main {
 }
 .reservation-box label {
     color: var(--castanho-claro);
-    font-size: 1.4em;
+    font-size: 1.2em;
     padding-bottom: 1em;
 }
 .reservation-box input, .reservation-box select {
     background-color: var(--castanho-escuro);
     color: white;
-    font-size: 1.2em;
+    font-size: 1em;
     border: none;
     border-bottom: 1px solid var(--castanho-medio);
     padding-bottom: 0.5em;
@@ -302,6 +302,11 @@ main {
 }
 .reservation-select-rooms-box {
     padding-bottom: 0;
+}
+#reservation-availability {
+    padding-top: 2em;
+    padding-bottom: 0;
+    margin-bottom: 0.5em;
 }
 
 
@@ -356,6 +361,11 @@ main {
 @media (max-width: 768px) {
     .slide-description-box p, a {
         font-size: 1.3em;
+    }
+}
+@media (max-width: 575px) {
+    .reservation-container {
+        max-width: 95%;
     }
 }
 @media (max-width: 500px) {
