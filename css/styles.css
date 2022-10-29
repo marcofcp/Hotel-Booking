@@ -309,6 +309,96 @@ main {
     margin-bottom: 0.5em;
 }
 
+/* Section Sweeper Gallery */
+
+.sweeper-gallery-container .swiper-slide {
+    height: 25em;
+    width: 40em;
+    object-fit: cover;
+    border-radius: 0.4em;
+    margin-bottom: 3.5em;
+}
+.gallery-slider .swiper-pagination-bullet {
+    background-color: var(--border);
+}
+.gallery-slider .swiper-pagination-bullet-active {
+    background-color: var(--castanho-claro);
+}
+
+/* Section Contact */
+
+.contact-container form {
+    width: 90%;
+}
+.message-box {
+    padding: 1.2em;
+    border: 1px solid var(--border);
+    width: 90%;
+}
+.message-box h2 {
+    color: var(--castanho-escuro);
+    background-color: var(--castanho-claro);
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 0.2em;
+    padding: 0.5em;
+}
+.message-box input, textarea {
+    background-color: var(--castanho-escuro);
+    border: none;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1em;
+    outline: none;
+    color: var(--castanho-claro);
+    font-size: 1.1em;
+    width: 100%;
+}
+.message-box input::placeholder, textarea::placeholder {
+    color: var(--castanho-medio);
+    font-size: 1.1em;
+    font-weight: 500;
+}
+#send-message {
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+}
+.contact-right-box h2 {
+    color: var(--castanho-claro);
+}
+
+        /* Accordion */
+
+.accordion-item {
+    background-color: var(--castanho-escuro);
+    color: var(--castanho-claro);
+    margin-bottom: 1em;
+    border-color: var(--border);
+}
+.accordion-item h2 button {
+    background-color: var(--castanho-claro);
+    color: var(--castanho-escuro);
+    font-size: 0.6em;
+    font-weight: bold;
+}
+.accordion-button:not(.collapsed) {
+    background-color: var(--castanho-claro);
+    color: var(--castanho-escuro);
+}
+.accordion-button:not(.collapsed)::after {
+    /* color: var(--castanho-escuro); */
+    filter: brightness(0%);
+}
+.accordion-item h2 button:focus {
+    box-shadow: none;
+}
+.accordion-item h2 button::after {
+    color: var(--castanho-escuro);
+}
+.accordion-body p {
+    line-height: 2em;
+}
+
+
 
 
 
@@ -357,15 +447,30 @@ main {
     .activity {
         padding-bottom: 2em;
     }
+    .sweeper-gallery-container {
+        max-width: 90%;
+    }
+    .sweeper-gallery-container .swiper-slide {
+        height: 20em;
+        width: 35em;
+    }
 }
 @media (max-width: 768px) {
     .slide-description-box p, a {
         font-size: 1.3em;
     }
+    .sweeper-gallery-container .swiper-slide {
+        height: 15em;
+        width: 25em;
+    }
 }
 @media (max-width: 575px) {
     .reservation-container {
         max-width: 95%;
+    }
+    .sweeper-gallery-container .swiper-slide {
+        height: 10em;
+        width: 15em;
     }
 }
 @media (max-width: 500px) {
