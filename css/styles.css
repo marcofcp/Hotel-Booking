@@ -429,8 +429,57 @@ main {
 
 /* Hotel Contacts */
 
-.phone-img-box {
-    width: 1.2em;
+.icon-img-box {
+    width: 1.1em;
+}
+.left-description {
+    font-size: 1em;
+    padding-left: 1.5em;
+}
+.left-description p:hover {
+    color: white;
+    cursor: pointer;
+}
+.contact-padding {
+    padding-bottom: 1em;
+}
+
+    /* Links */
+
+.contact-links-list {
+    list-style-type: none;
+    text-align: center;
+}
+.contact-links-list li a {
+    text-decoration: none;
+    color: var(--castanho-claro);
+    font-size: 1em;
+}
+.contact-links-list li a:hover {
+    color: white;
+}
+.contact-links-list li {
+    margin-bottom: 1em;
+}
+
+    /* Socials */
+
+.socials-item-box {
+    margin-bottom: 1em;
+}
+.social-img-box {
+    width: 1.1em;
+}
+.socials-description {
+    font-size: 1em;
+    padding-right: 1.2em;
+}
+.socials-description a {
+    text-decoration: none;
+    color: var(--castanho-claro);
+}
+.socials-description a:hover {
+    color: white;
 }
 
 
