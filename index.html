@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Booking</title>
     <!-- Bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- Fontawesome Integration -->
     <script src="https://kit.fontawesome.com/cd1e7d262f.js" crossorigin="anonymous"></script>
     <!-- External CSS -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- Sweeper JS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 </head>
+
 <body>
-    
+
     <!-- Header -->
     <header class="container-fluid header-container-full">
         <div class="container header-container d-flex justify-content-between">
             <div class="logo-name-box d-flex">
-                <p class="logo-name m-0 align-self-center">Hotels and Resorts</p>
+                <p class="logo-name m-0 align-self-center">Hotels And Resorts</p>
             </div>
             <div class="header-availability-box">
                 <a href="#" class="button-availability text-capitalize">Check Availability</a>
@@ -30,17 +33,17 @@
             </div>
         </div>
     </header>
-        
+
     <!-- Nav Menu -->
     <nav class="container nav-menu">
         <div class="nav-box">
             <ul class="d-flex justify-content-between m-0 p-0">
-                <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">reservation</a></li>
-                <li><a href="#">gallery</a></li>
-                <li><a href="#">contact</a></li>
-                <li><a href="#">reviews</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Reservation</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Reviews</a></li>
             </ul>
         </div>
     </nav>
@@ -100,16 +103,18 @@
     <section class="container check-in-out-container">
         <form action="" method="post" name="check-in-out-form">
             <div class="row">
+
                 <div class="col-lg-2 col-md-3 col-6 check-box">
-                    <label for="check-in-input">check in *</label><br>
+                    <label for="check-in-input">Check in *</label><br>
                     <input type="date" id="check-in-input" name="check-in-input">
                 </div>
                 <div class="col-lg-2 col-md-3 col-6 check-box">
-                    <label for="check-out-input">check out *</label><br>
+                    <label for="check-out-input">Check out *</label><br>
                     <input type="date" id="check-out-input" name="check-out-input">
                 </div>
+
                 <div class="col-lg-2 col-md-3 col-6 check-box">
-                    <label for="select-adults">adults *</label><br>
+                    <label for="select-adults">Adults *</label><br>
                     <select name="select-adults" id="select-adults">
                         <option value="1">1 adult</option>
                         <option value="2">2 adults</option>
@@ -120,7 +125,7 @@
                     </select>
                 </div>
                 <div class="col-lg-2 col-md-3 col-6 check-box">
-                    <label for="select-childs">childs *</label><br>
+                    <label for="select-childs">Childs *</label><br>
                     <select name="select-childs" id="select-childs">
                         <option value="0">0 child</option>
                         <option value="1">1 child</option>
@@ -132,7 +137,7 @@
                     </select>
                 </div>
                 <div class="col-lg-2 col-md-3 col-6 check-box">
-                    <label for="rooms-input">rooms *</label><br>
+                    <label for="rooms-input">Rooms *</label><br>
                     <select name="select-rooms" id="select-rooms">
                         <option value="1">1 room</option>
                         <option value="2">2 rooms</option>
@@ -143,7 +148,8 @@
                     </select>
                 </div>
                 <div class="col-lg-2 col-md-3 col-6 d-flex justify-content-center">
-                    <a href="#" class="button-availability text-capitalize align-self-center" id="check-in-out-availability">Check Availability</a>
+                    <a href="#" class="button-availability text-capitalize align-self-center"
+                        id="check-in-out-availability">Check Availability</a>
                 </div>
             </div>
         </form>
@@ -159,7 +165,8 @@
             <div class="col-lg-6 d-flex justify-content-center">
                 <div class="staff-right-box text-center align-self-center">
                     <h2 class="text-capitalize pt-lg-0 pt-4">Best Staff</h2>
-                    <p class="p-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae libero quo laudantium rerum provident odio nemo illo eius nobis.</p>
+                    <p class="p-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae libero quo
+                        laudantium rerum provident odio nemo illo eius nobis.</p>
                     <a href="#" class="button-availability text-capitalize">Make A Reservation</a>
                 </div>
             </div>
@@ -173,7 +180,8 @@
             <div class="col-lg-6 foods-left d-flex justify-content-center">
                 <div class="foods-left-box text-center align-self-center">
                     <h2 class="text-capitalize pt-lg-0 pt-4">Best Foods</h2>
-                    <p class="p-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae libero quo laudantium rerum provident odio nemo illo eius nobis.</p>
+                    <p class="p-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae libero quo
+                        laudantium rerum provident odio nemo illo eius nobis.</p>
                     <a href="#" class="button-availability text-capitalize">Contact Us</a>
                 </div>
             </div>
@@ -195,7 +203,8 @@
             <div class="col-lg-6 d-flex justify-content-center">
                 <div class="swimming-right-box text-center align-self-center">
                     <h2 class="text-capitalize pt-lg-0 pt-4">Swimming pool</h2>
-                    <p class="p-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae libero quo laudantium rerum provident odio nemo illo eius nobis.</p>
+                    <p class="p-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae libero quo
+                        laudantium rerum provident odio nemo illo eius nobis.</p>
                     <a href="#" class="button-availability text-capitalize">Check Availability</a>
                 </div>
             </div>
@@ -204,54 +213,55 @@
 
     <!-- Section Activities -->
 
-    <section class="container-lg activities-container d-flex justify-content-lg-between justify-content-center pt-5 flex-wrap">
+    <section
+        class="container-lg activities-container d-flex justify-content-lg-between justify-content-center pt-5 flex-wrap">
         <div class="activity text-center">
             <img src="images/icon-1.png" alt="Foods & Drinks">
             <p class="activity-name">Food & Drinks</p>
             <p class="activity-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
         </div>
         <div class="activity text-center">
-            <img src="images/icon-2.png" alt="Foods & Drinks">
+            <img src="images/icon-2.png" alt="Outdoor Dining">
             <p class="activity-name">Outdoor Dining</p>
             <p class="activity-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
         </div>
         <div class="activity text-center">
-            <img src="images/icon-3.png" alt="Foods & Drinks">
+            <img src="images/icon-3.png" alt="Beach View">
             <p class="activity-name">Beach View</p>
             <p class="activity-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
         </div>
         <div class="activity text-center">
-            <img src="images/icon-4.png" alt="Foods & Drinks">
+            <img src="images/icon-4.png" alt="Decorations">
             <p class="activity-name">Decorations</p>
             <p class="activity-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
         </div>
         <div class="activity text-center">
-            <img src="images/icon-5.png" alt="Foods & Drinks">
+            <img src="images/icon-5.png" alt="Swimming Pool">
             <p class="activity-name">Swimming Pool</p>
             <p class="activity-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
         </div>
         <div class="activity text-center">
-            <img src="images/icon-6.png" alt="Foods & Drinks">
+            <img src="images/icon-6.png" alt="Resort Beach">
             <p class="activity-name">Resort Beach</p>
             <p class="activity-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
         </div>
     </section>
 
     <!-- Section Reservation -->
-    
+
     <section class="container reservation-container mb-5">
         <h2 class="text-capitalize text text-center m-0 mb-3">Make A Reservation</h2>
         <form action="" class="reservations-form" method="post">
             <div class="row">
                 <div class="col-sm-6">
                     <div class="reservation-box">
-                        <label for="check-in-input">check in *</label><br>
+                        <label for="check-in-input">Check in *</label><br>
                         <input type="date" id="check-in-input" name="check-in-input">
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="reservation-box">
-                        <label for="check-out-input">check out *</label><br>
+                        <label for="check-out-input">Check out *</label><br>
                         <input type="date" id="check-out-input" name="check-out-input">
                     </div>
                 </div>
@@ -259,7 +269,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="reservation-box">
-                        <label for="reservation-adults">adults *</label><br>
+                        <label for="reservation-adults">Adults *</label><br>
                         <select name="reservation-adults" id="reservation-adults">
                             <option value="1">1 adult</option>
                             <option value="2">2 adults</option>
@@ -272,7 +282,7 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="reservation-box">
-                        <label for="reservation-childs">childs *</label><br>
+                        <label for="reservation-childs">Childs *</label><br>
                         <select name="reservation-childs" id="reservation-childs">
                             <option value="0">0 child</option>
                             <option value="1">1 child</option>
@@ -286,7 +296,7 @@
                 </div>
             </div>
             <div class="reservation-box reservation-select-rooms-box">
-                <label for="rooms-input">rooms *</label><br>
+                <label for="rooms-input">Rooms *</label><br>
                 <select name="select-rooms" id="select-rooms">
                     <option value="1">1 room</option>
                     <option value="2">2 rooms</option>
@@ -296,7 +306,8 @@
                     <option value="6">6 rooms</option>
                 </select>
             </div>
-            <div class="reservation-box text-center" id="reservation-availability"><a href="#" class="button-availability text-capitalize">Check Availability</a></div>
+            <div class="reservation-box text-center" id="reservation-availability"><a href="#"
+                    class="button-availability text-capitalize">Check Availability</a></div>
         </form>
 
     </section>
@@ -316,8 +327,8 @@
                 <img src="./images/gallery-img-5.webp" alt="Gallery Image 1" class="swiper-slide">
                 <img src="./images/gallery-img-6.webp" alt="Gallery Image 1" class="swiper-slide">
             </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
         </div>
     </section>
 
@@ -332,7 +343,8 @@
                         <input type="text" name="contact-name" id="contact-name" placeholder="enter your name">
                         <input type="email" name="contact-email" id="contact-email" placeholder="enter your email">
                         <input type="number" name="contact-number" id="contact-number" placeholder="enter your number">
-                        <textarea name="contact-textarea" id="contact-textarea" cols="30" rows="5" placeholder="enter your message"></textarea>
+                        <textarea name="contact-textarea" id="contact-textarea" cols="30" rows="5"
+                            placeholder="enter your message"></textarea>
                         <div class="send-message-box d-flex justify-content-center">
                             <a href="#" class="button-availability text-capitalize" id="send-message">Send Message</a>
                         </div>
@@ -349,13 +361,16 @@
                     <!-- Accordion Item 1 -->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            how to cancel?
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                How to cancel booking?
                             </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt aspernatur
+                                    excepturi eos! Quibusdam, sapiente.</p>
                             </div>
                         </div>
                     </div>
@@ -363,13 +378,16 @@
                     <!-- Accordion Item 2 -->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            is there any vacancy?
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Is there any vacancy?
                             </button>
                         </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt aspernatur
+                                    excepturi eos! Quibusdam, sapiente.</p>
                             </div>
                         </div>
                     </div>
@@ -377,13 +395,16 @@
                     <!-- Accordion Item 3 -->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            what are payment methods?
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What are payment methods?
                             </button>
                         </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt aspernatur
+                                    excepturi eos! Quibusdam, sapiente.</p>
                             </div>
                         </div>
                     </div>
@@ -391,13 +412,16 @@
                     <!-- Accordion Item 4 -->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            how to claim cupons codes?
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                How to claim cupons codes?
                             </button>
                         </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt aspernatur
+                                    excepturi eos! Quibusdam, sapiente.</p>
                             </div>
                         </div>
                     </div>
@@ -405,17 +429,20 @@
                     <!-- Accordion Item 5 -->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFive">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            what are the age requirements?
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                What are the age requirements?
                             </button>
                         </h2>
-                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt aspernatur
+                                    excepturi eos! Quibusdam, sapiente.</p>
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -433,32 +460,38 @@
                 <div class="swiper-slide slide-item">
                     <img src="./images/pic-1.png" alt="Review 1">
                     <p class="reviews-name m-0">John Doe</p>
-                    <p class="reviews-description m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
+                    <p class="reviews-description m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                        sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
                 </div>
                 <div class="swiper-slide slide-item">
                     <img src="./images/pic-2.png" alt="Review 1">
                     <p class="reviews-name m-0">John Doe</p>
-                    <p class="reviews-description m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
+                    <p class="reviews-description m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                        sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
                 </div>
                 <div class="swiper-slide slide-item">
                     <img src="./images/pic-3.png" alt="Review 1">
                     <p class="reviews-name m-0">John Doe</p>
-                    <p class="reviews-description m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
+                    <p class="reviews-description m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                        sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
                 </div>
                 <div class="swiper-slide slide-item">
                     <img src="./images/pic-4.png" alt="Review 1">
                     <p class="reviews-name m-0">John Doe</p>
-                    <p class="reviews-description m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
+                    <p class="reviews-description m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                        sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
                 </div>
                 <div class="swiper-slide slide-item">
                     <img src="./images/pic-5.png" alt="Review 1">
                     <p class="reviews-name m-0">John Doe</p>
-                    <p class="reviews-description m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
+                    <p class="reviews-description m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                        sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
                 </div>
                 <div class="swiper-slide slide-item">
                     <img src="./images/pic-6.png" alt="Review 1">
                     <p class="reviews-name m-0">John Doe</p>
-                    <p class="reviews-description m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
+                    <p class="reviews-description m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                        sunt aspernatur excepturi eos! Quibusdam, sapiente.</p>
                 </div>
             </div>
 
@@ -472,7 +505,7 @@
     <!-- Footer Contacts -->
 
     <footer class="container py-4">
-        
+
         <div class="row d-flex">
             <div class="col-lg-4 col-sm-6 col-12 m-0 p-0">
                 <div class="first-number-box d-flex contact-padding justify-content-sm-start justify-content-center">
@@ -499,7 +532,8 @@
                         <p class="m-0">marco_fcp85@hotmail.com</p>
                     </div>
                 </div>
-                <div class="contact-location-box d-flex contact-padding justify-content-sm-start justify-content-center">
+                <div
+                    class="contact-location-box d-flex contact-padding justify-content-sm-start justify-content-center">
                     <div class="icon-img-box">
                         <img src="./images/map.png" alt="Email" class="img-fluid">
                     </div>
@@ -509,45 +543,50 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-sm-6 col-12 d-flex justify-content-lg-center justify-content-sm-end justify-content-center">
+            <div
+                class="col-lg-4 col-sm-6 col-12 d-flex justify-content-lg-center justify-content-sm-end justify-content-center">
                 <ul class="contact-links-list p-0 pt-sm-0 pt-4">
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">reservation</a></li>
-                    <li><a href="#">gallery</a></li>
-                    <li><a href="#">contact</a></li>
-                    <li><a href="#">reviews</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Reservation</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Reviews</a></li>
                 </ul>
             </div>
 
             <div class="col-lg-4 col-sm-6 col-12">
-                <div class="socials-item-box d-flex justify-content-lg-end justify-content-sm-start justify-content-center">
+                <div
+                    class="socials-item-box d-flex justify-content-lg-end justify-content-sm-start justify-content-center">
                     <div class="socials-description">
-                        <a href="https://www.facebook.com" target="_blank">facebook</a>
+                        <a href="https://www.facebook.com" target="_blank">Facebook</a>
                     </div>
                     <div class="social-img-box">
                         <img src="./images/facebook-app-symbol.png" alt="facebook" class="img-fluid">
                     </div>
                 </div>
-                <div class="socials-item-box d-flex justify-content-lg-end justify-content-sm-start justify-content-center">
+                <div
+                    class="socials-item-box d-flex justify-content-lg-end justify-content-sm-start justify-content-center">
                     <div class="socials-description">
-                        <a href="https://www.twitter.com" target="_blank">twitter</a>
+                        <a href="https://www.twitter.com" target="_blank">Twitter</a>
                     </div>
                     <div class="social-img-box">
                         <img src="./images/twitter.png" alt="twitter" class="img-fluid">
                     </div>
                 </div>
-                <div class="socials-item-box d-flex justify-content-lg-end justify-content-sm-start justify-content-center">
+                <div
+                    class="socials-item-box d-flex justify-content-lg-end justify-content-sm-start justify-content-center">
                     <div class="socials-description">
-                        <a href="https://www.instagram.com" target="_blank">instagram</a>
+                        <a href="https://www.instagram.com" target="_blank">Instagram</a>
                     </div>
                     <div class="social-img-box">
                         <img src="./images/instagram.png" alt="instagram" class="img-fluid">
                     </div>
                 </div>
-                <div class="socials-item-box d-flex justify-content-lg-end justify-content-sm-start justify-content-center">
+                <div
+                    class="socials-item-box d-flex justify-content-lg-end justify-content-sm-start justify-content-center">
                     <div class="socials-description">
-                        <a href="https://www.linkedin.com" target="_blank">linkedin</a>
+                        <a href="https://www.linkedin.com" target="_blank">Linkedin</a>
                     </div>
                     <div class="social-img-box">
                         <img src="./images/linkedin.png" alt="linkedin" class="img-fluid">
@@ -561,13 +600,16 @@
 
 
 
-    
+
 
     <!-- Bootstrap Script CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
     <!-- Sweeper JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <!-- External Script -->
     <script src="js/script.js"></script>
 </body>
+
 </html>
