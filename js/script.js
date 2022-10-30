@@ -74,3 +74,19 @@ var swiper = new Swiper(".gallery-slider", {
        el: ".swiper-pagination",
      },
  });
+
+ // -------------------- 
+
+var swiper = new Swiper('.reviews-slider', {
+    // Optional parameters
+    loop: true,
+    slidesPerView: 2,
+    grabCursor: true,
+    spaceBetween: 50,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+});

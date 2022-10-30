@@ -328,12 +328,12 @@ main {
 /* Section Contact */
 
 .contact-container form {
-    width: 90%;
+    width: 95%;
 }
 .message-box {
     padding: 1.2em;
     border: 1px solid var(--border);
-    width: 90%;
+    width: 100%;
 }
 .message-box h2 {
     color: var(--castanho-escuro);
@@ -368,6 +368,9 @@ main {
 
         /* Accordion */
 
+.accordion {
+    width: 95%;
+}
 .accordion-item {
     background-color: var(--castanho-escuro);
     color: var(--castanho-claro);
@@ -396,6 +399,38 @@ main {
 }
 .accordion-body p {
     line-height: 2em;
+}
+
+/* Section Reviews */
+
+.reviews-slider .swiper-pagination-bullet {
+    background-color: var(--border);
+}
+.reviews-slider .swiper-pagination-bullet-active {
+    background-color: var(--castanho-claro);
+}
+.reviews-slider img {
+    width: 4em;
+    height: 4em;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.slide-item {
+    text-align: center;
+}
+.reviews-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 1em 0;
+}
+.reviews-description {
+    line-height: 2em;
+}
+
+/* Hotel Contacts */
+
+.phone-img-box {
+    width: 1.2em;
 }
 
 
