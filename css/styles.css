@@ -48,7 +48,6 @@ body {
     background-color: var(--castanho-escuro);
     color: var(--castanho-claro);
     border: 1px solid var(--border);
-    width: 500px;
     padding: 0.5em 1.8em;
     font-size: 1.2em;
     transition: 0.3s;
