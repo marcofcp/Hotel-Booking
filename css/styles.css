@@ -32,13 +32,15 @@
 body {
     font-family: "Montserrat", sans-serif;
     background-color: var(--castanho-escuro);
+    padding-top: 7em;
 }
 .header-container-full {
     background-color: var(--castanho-escuro);
     color: var(--castanho-claro);
     padding: 2.2em 0em 1.5em 0em;
     transition: 0.3s;
-    position: relative;
+    position: fixed;
+    top: 0;
     z-index: 9;
 }
 .logo-name-box p {
@@ -328,6 +330,9 @@ main {
 
 /* Section Contact */
 
+.contact-container {
+    padding: 6em 0 3em 0;
+}
 .contact-container form {
     width: 95%;
 }
@@ -404,6 +409,9 @@ main {
 
 /* Section Reviews */
 
+.reviews-container {
+    padding: 5em 0;
+}
 .reviews-slider .swiper-pagination-bullet {
     background-color: var(--border);
 }
