@@ -482,6 +482,21 @@ main {
     color: white;
 }
 
+    /* Copyright Content */
+
+.copyright-content {
+    background-color: var(--castanho-claro);
+    color: var(--castanho-escuro);
+    border-radius: 0.3em;
+}
+.copyright-content p {
+    font-size: 0.9em;
+}
+.copyright-content span {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
 
 
 
@@ -538,6 +553,9 @@ main {
         height: 20em;
         width: 35em;
     }
+    .copyright-content {
+        font-size: 0.8em;
+    }
 }
 @media (max-width: 768px) {
     .slide-description-box p, a {
@@ -564,5 +582,8 @@ main {
     .slide-description-box a {
         font-size: 0.9em;
         padding: 0.5em 0.6em;
+    }
+    .copyright-content {
+        font-size: 0.7em;
     }
 }
