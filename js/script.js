@@ -30,7 +30,8 @@ window.addEventListener("scroll", (evt) => {
     if (window.scrollY > 60) {
         header.style.backgroundColor = "#DCC79C";
         header.style.position = "fixed";
-        header.style.zIndex = "9";
+        // header.style.zIndex = "9";
+        header.style.padding = "1em 0em 1em 0em";
         logoName.style.color = "#2B1104";
         hamburger.style.color = "#2B1104";
     } else {
